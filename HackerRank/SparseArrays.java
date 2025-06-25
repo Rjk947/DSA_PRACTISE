@@ -26,7 +26,7 @@ public class SparseArrays {
     public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
         // Write your code here
 
-        // O(n+m) complexity
+        // O(n+m) complexicity
         // Map<String, Integer> map = new LinkedHashMap<>();
         // for(String str : strings) {
         // map.put(str, map.getOrDefault(str, 0)+1);
@@ -37,7 +37,7 @@ public class SparseArrays {
         // }
         // return result;
 
-        // O(n*m) complexity
+        // O(n*m) complexicity
 
         // List<Integer> list = new ArrayList<>();
         // for(String query: queries) {

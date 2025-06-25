@@ -29,6 +29,14 @@ public class BestTimeToBuyAndSellStock_2 {
             totalProfit += prices[sellIndex] - prices[buyIndex];
         }
 
+        /* int totalProfit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            // If today's price is higher than yesterday, take the profit
+            if (prices[i] > prices[i - 1]) {
+                totalProfit += prices[i] - prices[i - 1];
+            }
+        } */
+
         return totalProfit;
     }
 }
