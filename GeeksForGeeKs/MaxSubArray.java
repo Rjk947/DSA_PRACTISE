@@ -18,6 +18,8 @@ public class MaxSubArray {
         //     }
         // }
 
+        //Kadane's Algorithm
+
         int maxEnding = arr[0];
         for(int i = 1; i<arr.length; i++) {
             maxEnding = Math.max(arr[i], arr[i]+maxEnding);
