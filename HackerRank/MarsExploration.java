@@ -3,7 +3,8 @@ import java.util.List;
 
 public class MarsExploration {
     public static void main(String[] args) {
-        //due to radiation in space, message from marsh coming in form of SOSSOS is changed to SOSTOT give the count of letter in SOS message changed
+        // due to radiation in space, message from marsh coming in form of SOSSOS is
+        // changed to SOSTOT give the count of letter in SOS message changed
 
         System.out.println(marsExploration("SOSTOT"));
     }
